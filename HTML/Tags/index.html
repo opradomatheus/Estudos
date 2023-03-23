@@ -7,9 +7,14 @@
     <title>Tags HTML</title>
 </head>
 
-<style> /* Define os estilos dentro do documento HTML*/
+<style> 
     * { 
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    section {
+        padding: 5px;
+        margin: 5px;
     }
 </style>
 
@@ -22,12 +27,12 @@
 
         <h3>Titulos e subtitulos</h3>
 
-        <h1>h1</h1>
+        <h1>h1</h1> <!--Título de maior valor hierárquico-->
         <h2>h2</h2>
         <h3>h3</h3>
         <h4>h4</h4>
         <h5>h5</h5>
-        <h6>h6</h6>
+        <h6>h6</h6> <!--Título de menor valor hierárquico-->
     </section>
 
     <section style="background-color: aquamarine;">
@@ -98,10 +103,62 @@
         <!--Input para enviar informações do formulário-->
         <label for="email">type="submit"</label>
         <input type="submit" value="Clique">
+        
+
+    </section>
+
+    <section style="background-color: coral;">
+
+        <h3>Textarea</h3>
+        
+        <!--Campo de texto para preencher informações do formulário-->
+        <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+
+    </section>
+
+    <section style="background-color: darkgoldenrod; color: #FFF;">
+        <h3>Tags de midia</h3>
+
+        <!--Tag para adicionar imagens ao HTML-->
+        <img src="largo.jpg" alt="Largo atrás" height="535px"">
+        
+        <!--Tag para adicionar videos ao HTML-->
+        <video controls height="535px">
+            <source src="IS THAT A SUPRA_!.mp4" type="video/mp4">
+        </video>
+
+
+        <audio controls>
+            <source src="staywithme.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <section style="background-color: chartreuse;"> 
+        <h3>Estilos e scripts</h3>
+
+        <span>
+            <!--Tag para adicionar os estilos dentro do HTML-->
+            &lt;style&gt; &lt;/style&gt; - Tag para adicionar os estilos dentro do HTML
+        </span>
 
         <br>
         <br>
 
+        <span>
+            <!--Tag para adicionar os scripts dentro do HTML-->
+            &lt;script&gt; &lt;/script&gt; - Tag para adicionar os scripts dentro do HTML
+        </span>
+    </section>
+
+    <section style="background-color: rgb(252, 252, 252);">
+        <h3>Tags de estrutura do HTML</h3>
+
+        <img src="Capture.PNG" alt="Deu preguiça">
+
+        <br>
+        <br>
+
+        <span>Deu preguiça é uma imagem</span>
     </section>
 
     
